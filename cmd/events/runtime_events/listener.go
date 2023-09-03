@@ -25,6 +25,9 @@ func (s *listensForNewServices) Name() string {
 	return "listener"
 }
 
+// there are a bunch of runtime events to bind to via
+// implementing an interface like this one
+
 func (s *listensForNewServices) OnServiceAdded(args ...interface{}) {
 	if len(args) < 1 {
 		return
