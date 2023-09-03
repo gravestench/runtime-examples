@@ -2,8 +2,9 @@ package twitch_auth_code_grant_flow
 
 import (
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/examples/services/web_router"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/web_router"
 )
 
 type recipe interface {

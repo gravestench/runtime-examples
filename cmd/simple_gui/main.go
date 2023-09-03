@@ -4,8 +4,9 @@ import (
 	"github.com/faiface/mainthread"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/examples/services/raylib_renderer"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/raylib_renderer"
 )
 
 func main() {

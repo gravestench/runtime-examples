@@ -13,8 +13,7 @@ require (
 	github.com/gin-contrib/gzip v0.0.6
 	github.com/gin-gonic/gin v1.9.1
 	github.com/google/uuid v1.3.0
-	github.com/gravestench/eventemitter v0.0.0-20230808015001-bb9bc0be2ad9
-	github.com/gravestench/runtime v0.0.0-20230903045519-1aacc8931215
+	github.com/gravestench/runtime v0.0.0-20230903054753-288149aae7c5
 	github.com/hegedustibor/htgo-tts v0.0.0-20230402053941-cd8d1a158135
 	github.com/rs/zerolog v1.30.0
 	golang.org/x/oauth2 v0.11.0
@@ -73,6 +72,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/gophercloud/gophercloud v0.16.0 // indirect
 	github.com/gophercloud/utils v0.0.0-20210216074907-f6de111f2eae // indirect
+	github.com/gravestench/eventemitter v0.0.0-20230808015001-bb9bc0be2ad9 // indirect
 	github.com/hajimehoshi/go-mp3 v0.3.3 // indirect
 	github.com/hajimehoshi/oto v0.7.1 // indirect
 	github.com/hajimehoshi/oto/v2 v2.2.0 // indirect

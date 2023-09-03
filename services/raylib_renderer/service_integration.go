@@ -2,7 +2,8 @@ package raylib_renderer
 
 import (
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
 )
 
 // Ensure that Service implements the required interfaces.

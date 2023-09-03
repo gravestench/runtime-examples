@@ -2,9 +2,10 @@ package main
 
 import (
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/examples/services/twitch_integration"
-	"github.com/gravestench/runtime/examples/services/twitch_soundboard"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/twitch_integration"
+	"github.com/gravestench/runtime-examples/services/twitch_soundboard"
 )
 
 func main() {

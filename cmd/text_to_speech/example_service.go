@@ -4,8 +4,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/gravestench/runtime/examples/services/text_to_speech"
 	"github.com/gravestench/runtime/pkg"
+
+	"github.com/gravestench/runtime-examples/services/text_to_speech"
 )
 
 type exampleServiceThatUsesTts struct {

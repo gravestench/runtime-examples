@@ -9,8 +9,9 @@ import (
 	"github.com/hegedustibor/htgo-tts/handlers"
 	"github.com/rs/zerolog"
 
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/pkg"
+	"github.com/gravestench/runtime"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
 )
 
 type Service struct {
@@ -19,7 +20,7 @@ type Service struct {
 	speech     htgotts.Speech
 }
 
-func (s *Service) Init(rt pkg.IsRuntime) {
+func (s *Service) Init(rt runtime.R) {
 	var cfg *config_file.Config
 
 	for { // wait until the config or default config is saved + loaded

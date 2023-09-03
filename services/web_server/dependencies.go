@@ -1,9 +1,10 @@
 package web_server
 
 import (
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/examples/services/web_router"
 	"github.com/gravestench/runtime/pkg"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/web_router"
 )
 
 func (s *Service) DependenciesResolved() bool {

@@ -3,7 +3,7 @@ package web_router
 import (
 	"fmt"
 
-	"github.com/gravestench/runtime/examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/config_file"
 )
 
 func (s *Service) ConfigFilePath() string {

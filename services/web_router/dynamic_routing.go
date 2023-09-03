@@ -7,7 +7,8 @@ import (
 	"k8s.io/utils/strings/slices"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/web_router/middleware/logger"
+
+	"github.com/gravestench/runtime-examples/services/web_router/middleware/logger"
 )
 
 func (s *Service) RouteRoot() *gin.Engine {

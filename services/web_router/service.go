@@ -7,8 +7,9 @@ import (
 	"github.com/rs/zerolog"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/examples/services/web_router/middleware/static_assets"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/web_router/middleware/static_assets"
 )
 
 type Service struct {

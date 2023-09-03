@@ -2,8 +2,9 @@ package main
 
 import (
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/cmd/dependency_injection/service_dependencies/serviceA"
-	"github.com/gravestench/runtime/examples/cmd/dependency_injection/service_dependencies/serviceB"
+
+	"github.com/gravestench/runtime-examples/cmd/dependency_injection/service_dependencies/serviceA"
+	"github.com/gravestench/runtime-examples/cmd/dependency_injection/service_dependencies/serviceB"
 )
 
 func main() {

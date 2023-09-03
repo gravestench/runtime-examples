@@ -6,8 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/web_router"
 	"github.com/gravestench/runtime/pkg"
+
+	"github.com/gravestench/runtime-examples/services/web_router"
 )
 
 var (

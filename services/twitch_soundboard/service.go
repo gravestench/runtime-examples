@@ -4,8 +4,9 @@ import (
 	"github.com/rs/zerolog"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
-	"github.com/gravestench/runtime/examples/services/desktop_notification"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
+	"github.com/gravestench/runtime-examples/services/desktop_notification"
 )
 
 // this is an example service that implements only the OnPrivateMessage handler

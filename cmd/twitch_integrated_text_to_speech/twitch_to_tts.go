@@ -9,8 +9,9 @@ import (
 	"github.com/hegedustibor/htgo-tts/voices"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/text_to_speech"
 	"github.com/gravestench/runtime/pkg"
+
+	"github.com/gravestench/runtime-examples/services/text_to_speech"
 )
 
 // this service will just connect the TTS to the twitch integration service

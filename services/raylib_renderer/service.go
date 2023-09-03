@@ -9,8 +9,9 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 	"github.com/rs/zerolog"
 
-	"github.com/gravestench/runtime/examples/services/config_file"
 	"github.com/gravestench/runtime/pkg"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
 )
 
 type Service struct {

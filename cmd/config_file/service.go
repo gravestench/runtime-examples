@@ -4,14 +4,15 @@ import (
 	"github.com/rs/zerolog"
 
 	"github.com/gravestench/runtime"
-	"github.com/gravestench/runtime/examples/services/config_file"
+
+	"github.com/gravestench/runtime-examples/services/config_file"
 )
 
-type recipe interface {
-	runtime.R
+var _ interface {
+	runtime.S
 	runtime.HasLogger
 	runtime.HasDependencies
-}
+} = &serviceThatUsesConfigManager{}
 
 type serviceThatUsesConfigManager struct {
 	configManager config_file.Manager // dependency on config file manager
