@@ -14,7 +14,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/google/uuid v1.3.0
 	github.com/gravestench/eventemitter v0.0.0-20230808015001-bb9bc0be2ad9
-	github.com/gravestench/runtime v0.0.0-20230819181232-9f58047429af
+	github.com/gravestench/runtime v0.0.0-20230903045519-1aacc8931215
 	github.com/hegedustibor/htgo-tts v0.0.0-20230402053941-cd8d1a158135
 	github.com/rs/zerolog v1.30.0
 	golang.org/x/oauth2 v0.11.0
@@ -92,7 +92,7 @@ require (
 	github.com/liquidweb/go-lwApi v0.0.5 // indirect
 	github.com/liquidweb/liquidweb-cli v0.6.9 // indirect
 	github.com/liquidweb/liquidweb-go v1.6.3 // indirect
-	github.com/mattn/go-colorable v0.1.12 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.19 // indirect
 	github.com/miekg/dns v1.1.40 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
@@ -131,7 +131,7 @@ require (
 	golang.org/x/image v0.0.0-20190802002840-cff245a6509b // indirect
 	golang.org/x/mobile v0.0.0-20190719004257-d2bd2a29d028 // indirect
 	golang.org/x/net v0.14.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/sys v0.12.0 // indirect
 	golang.org/x/text v0.12.0 // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	google.golang.org/api v0.126.0 // indirect
