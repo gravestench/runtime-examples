@@ -25,7 +25,7 @@ func (s *sender) Init(rt pkg.IsRuntime) {
 
 	time.Sleep(time.Second * 3)
 
-	rt.Events().Emit("test", "foo", 1, 2.3, []int{4, 5})
+	rt.Events().Emit("test", "foo", 1, 2.3, []int{4, 5}).Wait()
 }
 
 func (s *sender) Name() string {
